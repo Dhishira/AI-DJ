@@ -16,7 +16,7 @@ function preload()
 
 function setup()
 {
-  canvas = createCanvas(600,325);
+  canvas = createCanvas(600,500);
   canvas.center();
 
   video = createCapture(VIDEO);
@@ -52,7 +52,7 @@ function gotposes(results)
 
 function draw()
 {
-  image(video,0,0,600,325);
+  image(video,0,0,600,500);
   fill("#F72F28");
   stroke("#F72F28");
 
